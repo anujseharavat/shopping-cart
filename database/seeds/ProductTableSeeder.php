@@ -32,5 +32,19 @@ class ProductTableSeeder extends Seeder
             'price' => 10
         ]);
         $product->save();
+        $product = new \App\Product([
+            'imagePath' => 'http://www.frendz4m.in/ss/1455772828-screenshot.jpg',
+            'title' => 'Super Commando Dhruv',
+            'description' => 'Super Commando Dhruv- at least as a child',
+            'price' => 10
+        ]);
+        $product->save();
+        $product = new \App\Product([
+            'imagePath' => 'http://www.indianetzone.com/photos_gallery/49/Artwork_of_Nagraj.jpg',
+            'title' => 'Nagraj',
+            'description' => 'Nagraj- at least as a child',
+            'price' => 10
+        ]);
+        $product->save();
     }
 }
